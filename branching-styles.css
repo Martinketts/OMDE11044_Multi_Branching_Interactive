@@ -357,7 +357,7 @@ h2.sub-title .label {
   text-transform: uppercase;
   letter-spacing: .08em;
   padding: 9px 22px;                                      /* matches .btn height */
-  border-radius: 999px;                                   /* pill — matches .btn */
+  border-radius: 14px;                                   /* pill — matches .btn */
   display: flex; align-items: center; justify-content: space-between;
   box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 4px 10px rgba(60,45,25,.10);
   transition: transform .25s var(--ease),
