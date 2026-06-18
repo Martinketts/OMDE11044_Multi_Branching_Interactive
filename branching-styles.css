@@ -112,7 +112,7 @@ body {
   box-shadow:
     0 1px 0 rgba(255,255,255,.6) inset,
     0 0 0 1px rgba(0,0,0,.04),
-    0 30px 60px rgba(60,45,25,.16),
+    0 20px 30px rgba(60,45,25,.16),
     0 12px 24px rgba(60,45,25,.10);
   isolation: isolate;
 }
