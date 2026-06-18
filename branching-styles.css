@@ -47,7 +47,7 @@
 
   /* Surfaces */
   --line:          #e6e1d8;
-  --page:          #ffffff;   /* book page background       */
+  /*--page:          #ffffff;   /* book page background       */
   --page-2:        #fafafa;   /* curved bottom edge color   */
   --tab-bg:        #ffffff;
 
@@ -101,6 +101,8 @@ body {
 
 .page {
   position: relative;
+  background: #ffffff;
+background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 91%, rgba(255, 255, 255, 0) 100%);
   width: min(1180px, 100%);
   aspect-ratio: 16 / 9;
   min-height: 560px;
