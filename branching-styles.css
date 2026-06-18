@@ -102,7 +102,14 @@ body {
 .page {
   position: relative;
   background: #ffffff;
+background: -webkit-linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(227, 175, 175, 1) 92%, rgba(255, 255, 255, 0) 100%);
+background: -moz-linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(227, 175, 175, 1) 92%, rgba(255, 255, 255, 0) 100%);
 background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(227, 175, 175, 1) 92%, rgba(255, 255, 255, 0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(
+  startColorstr="#FFFFFF",
+  endColorstr="#FFFFFF",
+  GradientType=0
+);
   width: min(1180px, 100%);
   aspect-ratio: 16 / 9;
   min-height: 560px;
