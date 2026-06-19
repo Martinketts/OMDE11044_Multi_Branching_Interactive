@@ -53,7 +53,7 @@
 
   /* Effects */
   --shadow:        0 1px 2px rgba(50,40,30,.05),
-                   0 8px 20px rgba(245, 244, 242, 0.06);
+                   0 8px 24px rgba(70,55,35,.06);
   --shadow-soft:   0 1px 1px rgba(50,40,30,.04),
                    0 4px 14px rgba(70,55,35,.05);
 
@@ -73,9 +73,8 @@ html, body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background-image: linear-gradient(45deg, #f0f0f0 25%, #ebe8e8 25%, #ebe8e8 50%, #f0f0f0 50%, #f0f0f0 75%, #ebe8e8 75%, #ebe8e8 100%);
+  background-image: linear-gradient(45deg, #f0f0f0 25%, #ebe8e8 25%, #ebe8e8 50%, #f0f0f0 50%, #f0f0f0 75%, #ebe8e8 75%, #ebe8e8 100%);  /* EDIT: desk color */
   background-size: 8.49px 8.49px;
-  /*  background: #f0f0f0;                                    /* EDIT: desk color */
   font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
@@ -101,18 +100,18 @@ body {
 
 .page {
   position: relative;
-  background: #ffffff;
+  background-color: #E5E5F7;
   width: min(1180px, 100%);
   aspect-ratio: 16 / 9;
   min-height: 560px;
   max-height: calc(100vh - 60px);
   background: var(--page);
-  border-radius: 18px;
+  border-radius: 14px;
   overflow: hidden;
   box-shadow:
     0 1px 0 rgba(255,255,255,.6) inset,
     0 0 0 1px rgba(0,0,0,.04),
-    0 20px 30px rgba(60,45,25,.16),
+    0 30px 60px rgba(60,45,25,.16),
     0 12px 24px rgba(60,45,25,.10);
   isolation: isolate;
 }
@@ -657,13 +656,12 @@ h2.sub-title .label {
 }
 .tab {
   position: relative;
-  background: var(--tab-bg);
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 88%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 95%);
   padding: 10px 70px;
   border-radius: 999px 999px 0px 0px; 
   box-shadow:
-    0 -1px 0 rgba(0,0,0,.04),
-    0 2px 6px rgba(60,45,25,.08),
-    0 10px 24px rgba(60,45,25,.06);
+    0px -5px 8px rgba(60,45,95,.06);
   display: flex; align-items: center;
   gap: 18px;
   min-width: 260px;
